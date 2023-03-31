@@ -1,0 +1,12 @@
+.TagSelector {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.TagSelector__tags {
+  margin-left: 1rem;
+  font-size: 20px;
+  padding: 0.5rem;
+}

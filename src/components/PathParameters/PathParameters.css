@@ -1,0 +1,29 @@
+.PathParameters {
+  border-top: 1px solid grey;
+  padding: 1rem;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+  .PathParameters {
+    width: 100%;
+  }
+}
+
+.PathParameters__table {
+  width: 100%;
+}
+
+.PathParameters__name-text {
+  margin-right: 0.5rem;
+}
+
+.PathParameters__name-required {
+  color: red;
+  font-size: x-small;
+}
+
+.PathParameters__desc {
+  font-style: italic;
+}

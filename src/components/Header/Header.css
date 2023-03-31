@@ -1,0 +1,18 @@
+.Header {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.Header__logo {
+  height: 50px;
+  width: auto;
+}
+
+.Header__title {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin: 0;
+}

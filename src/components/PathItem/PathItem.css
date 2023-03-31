@@ -1,0 +1,69 @@
+.PathItem {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+.PathItem__title {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.PathItem__title-method {
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.PathItem__title-path {
+  flex-basis: 100%;
+  font-weight: bold;
+  user-select: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.PathItem__title-button {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 1rem;
+}
+
+.PathItem--get {
+  border: 1px solid blue;
+}
+
+.PathItem__title-method--get {
+  background-color: blue;
+}
+
+.PathItem--post {
+  border: 1px solid green;
+}
+
+.PathItem__title-method--post {
+  background-color: green;
+}
+
+.PathItem--delete {
+  border: 1px solid red;
+}
+
+.PathItem__title-method--delete {
+  background-color: red;
+}
+
+.PathItem--put {
+  border: 1px solid grey;
+}
+
+.PathItem__title-method--put {
+  background-color: grey;
+}
